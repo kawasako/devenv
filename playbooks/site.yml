@@ -7,7 +7,7 @@
     - zsh
     - dotfiles
     - vim
-    - ssh
+    # - ssh
     - direnv
     - ntp
     - swap_file
@@ -17,5 +17,5 @@
     - mysql
     - postgresql
     - redis
-    - heroku
-    - peco
+    # - heroku
+    # - peco

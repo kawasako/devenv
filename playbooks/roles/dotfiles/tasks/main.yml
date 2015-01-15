@@ -1,7 +1,5 @@
 - name: 設定ファイルを配置する
-  copy:
-    src:  ~/dev/devenv/dotfiles/{{ item }}
-    dest: /root/{{ item }}
+  copy: src={{ item }} dest=/root/{{ item }}
   with_items:
     - .ackrc
     - .aliases

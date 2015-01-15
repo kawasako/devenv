@@ -20,6 +20,8 @@ Vagrant + Ansibleで作られた開発環境です。
 ## 動かし方
 
 ```
+$ sudo easy_install pip // pipをインストール
+$ sudo pip install ansible // ansibleをインストール
 $ mkdir ~/dev // ゲストOSとのディレクトリ共有に使用
 $ git clone git@github.com:bojovs/devenv.git
 $ cd devenv

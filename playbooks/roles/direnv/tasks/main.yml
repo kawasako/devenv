@@ -1,6 +1,6 @@
 - name: ソースコードをGitHubから持ってくる
   git:
-    repo:           git@github.com:zimbatm/direnv.git
+    repo:           https://github.com/zimbatm/direnv.git
     dest:           ~/dev/_others/direnv
     accept_hostkey: yes
 

@@ -12,7 +12,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   # `vagrant ssh` したとき `root` でログインする（provision後外す）
-  config.ssh.username = 'root'
+  # config.ssh.username = 'root'
 
   config.vm.synced_folder './dev', '/root/dev', type: 'nfs'
   # config.vm.synced_folder '~/Dropbox/devenv', '/root/dropbox', type: 'nfs'
